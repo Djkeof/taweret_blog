@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feeds/rss-style.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>重新编排</title>
+        <title>二叉树上的河马</title>
         <link>https://retypeset.radishzz.cc/</link>
-        <description>Retypeset是一款基于Astro框架的静态博客主题，中文名为重新编排。本主题以活版印字为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。</description>
-        <lastBuildDate>Thu, 21 Aug 2025 22:54:14 GMT</lastBuildDate>
+        <description>just blog</description>
+        <lastBuildDate>Thu, 21 Aug 2025 23:16:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
         <language>zh</language>
@@ -16,6 +16,19 @@
             <link>https://retypeset.radishzz.cc/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</link>
             <guid isPermaLink="false">https://retypeset.radishzz.cc/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</guid>
             <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[单词，每日一句 14年3、4 1000强化8、9 第二章练习 3.3 960-1.2 习9]]></description>
+            <content:encoded><![CDATA[<h2>英语</h2>
+<p><s>单词，每日一句</s></p>
+<p><s>14年3、4</s></p>
+<h2>数学</h2>
+<p>1000强化8、9</p>
+<h2>信号</h2>
+<p>第二章练习</p>
+<p>3.3</p>
+<p>960-1.2</p>
+<h2>政治</h2>
+<p><s>习9</s></p>
+]]></content:encoded>
         </item>
     </channel>
 </rss>
