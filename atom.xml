@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-22T11:25:02.296Z</updated>
+    <updated>2025-08-22T22:22:28.441Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
         <name>Tioryio</name>
@@ -18,9 +18,401 @@
         <id>https://www.taweret.fyi/posts/zen95/</id>
         <link href="https://www.taweret.fyi/posts/zen95/"/>
         <updated>2025-08-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[对称区间非奇非偶 $$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx...]]></summary>
-        <content type="html"><![CDATA[<p>对称区间非奇非偶</p>
+        <summary type="html"><![CDATA[$$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx \quad (a...]]></summary>
+        <content type="html"><![CDATA[<h1>对称区间非奇非偶</h1>
 <p>$$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx \quad (a &gt; 0)$$</p>
+<h1>判定奇偶及周期性</h1>
+<p><img src="https://lsky.tioryio.com/i/2025/08/22/68a865b651054.png" alt="image.png" /></p>
+]]></content>
+        <author>
+            <name>Tioryio</name>
+            <uri>https://www.taweret.fyi</uri>
+        </author>
+        <published>2025-08-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[astro搭建博客+netlify部署博客+obsidian编辑+lsky图床]]></title>
+        <id>https://www.taweret.fyi/posts/astro%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2netlify%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2obsidian%E7%BC%96%E8%BE%91lsky%E5%9B%BE%E5%BA%8A/</id>
+        <link href="https://www.taweret.fyi/posts/astro%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2netlify%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2obsidian%E7%BC%96%E8%BE%91lsky%E5%9B%BE%E5%BA%8A/"/>
+        <updated>2025-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[:::important 非必需，netlify会提供免费域名。::: 找一家域名商，挑选一个心仪的域名购买即可。常见的有namecheap...]]></summary>
+        <content type="html"><![CDATA[<h2>域名购买</h2>
+<p>:::important
+非必需，netlify会提供免费域名。
+:::</p>
+<p>找一家域名商，挑选一个心仪的域名购买即可。
+常见的有namecheap,godaddy,cloudflare,阿里云,腾讯云。
+博主是在<a href="https://porkbun.com">porkbun</a>购买</p>
+<p>:::tip
+在购买前，推荐先去搜索一下优惠券，直接搜索porkbun优惠券就能搜到现在有减1$<a href="https://www.extrabux.cn/chs/coupons/porkbun">Porkbun 优惠券 &amp; 促销 (Extrabux)</a>。其他家也可以试着搜一下。
+:::</p>
+<h2>VPS购买</h2>
+<p>:::important
+非必需，本文中同来搭建lsky图床，就图床而言也有很多免费方案。
+:::</p>
+<p>供应商很多，根据需求选择购买即可，具体可以去各大论坛关注下，黑5、复活节、圣诞等基本都有活动。</p>
+<p>:::tip
+在购买前，也推荐先去搜索一下优惠券。
+:::</p>
+<h2>挑选博客主题</h2>
+<p>进入astro.build
+选择顶部资源，挑选喜欢的主题。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/22/68a85a65f0108.png" alt="" /></p>
+<h2>安装主题</h2>
+<p>以本博客使用的主题为例，点击开始使用跳转到github，也可以点击下方卡片直接进入。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/22/68a85b30ace8c.png" alt="image.png" /></p>
+<p>::github{repo="radishzzz/astro-theme-retypeset"}</p>
+<p>在终端中运行</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b39b28a67.png" alt="image.png" /></p>
+<pre><code># Clone the repository
+git clone https://github.com/radishzzz/astro-theme-retypeset
+
+重命名博客文件`blog`
+
+# Navigate to the project directory
+cd blog
+
+# Install pnpm globally (if not already installed)
+npm install -g pnpm
+
+# Install dependencies
+pnpm install
+
+# Start the development server
+pnpm dev
+</code></pre>
+<p>此时浏览器应该会打开博客</p>
+<p>:::tip
+建议先在本地修改调试再上传GitHub仓库以及部署。
+:::</p>
+<h2>本地修改调试</h2>
+<h3>删除原有的文章</h3>
+<p>删除<code>posts</code>下的原有文章。</p>
+<pre><code>blog/
+└── src/
+    └── content
+		└── posts
+</code></pre>
+<h3>个性化配置</h3>
+<p>参考博客指南<a href="https://retypeset.radishzz.cc/tags/%E6%8C%87%E5%8D%97/">博客指南</a>进行，如果你不知道怎么做可以问问AI，</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b4dada390.png" alt="image.png" /></p>
+<h3>新建测试博文</h3>
+<p>在posts文件夹下新建test.md文件</p>
+<pre><code>---
+
+title: zen95
+
+draft: false
+
+tags:
+
+  - 日记
+
+  - zen
+
+published: 2025-08-22
+
+---
+
+# 对称区间非奇非偶
+
+  
+
+$$\int_{-a}^{a} f(x) \, dx = \int_{0}^{a} [f(x) + f(-x)] \, dx \quad (a &gt; 0)$$
+
+  
+
+</code></pre>
+<h3>本地运行</h3>
+<p>如果没有结束终端任务，回到浏览器博客页面查看更改是否生效。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8ed5eb4d31.png" alt="image.png" /></p>
+<p>如果关闭了终端，在博客根目录下打开终端运行</p>
+<pre><code>pnpm dev
+</code></pre>
+<p>在本地确保配置完成，博客运行正常进入下一步</p>
+<h2>上传Github仓库</h2>
+<h3>新建仓库</h3>
+<p>需要新建源码仓库和展示仓库</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b89b5abf3.png" alt="image.png" /></p>
+<h4>新建源码仓库</h4>
+<p>源码仓库选择私有</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b96d68bed.png" alt="image.png" /></p>
+<h4>新建展示仓库</h4>
+<p>展示仓库选择公开</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b9b09dc1c.png" alt="image.png" /></p>
+<h3>获取Github API</h3>
+<p>点击右上角头像，进入设置。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8ba6d6cad2.png" alt="image.png" /></p>
+<p>选择开发者设置。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8babad0b67.png" alt="image.png" /></p>
+<p>选择生成经典令牌。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8bafdd89b4.png" alt="image.png" /></p>
+<p>写个名字，选择到期时间（建议无过期），勾选repo、workflow权限。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8bb4c26169.png" alt="image.png" /></p>
+<p>复制API暂时保存好，一会要用。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8bbcf31fb8.png" alt="image.png" /></p>
+<h3>添加密钥</h3>
+<p>打开源码仓库，进入设置，选择Actions，新建Repository secrets。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8bce919132.png" alt="image.png" /></p>
+<p>写个名字（后面要用哦），填入前面复制的密钥（找不到就再申请一个吧）。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8bda018ed2.png" alt="image.png" /></p>
+<h3>添加Github Workflow配置文件</h3>
+<p>再.github文件夹下新建workflows文件夹添加deploy.yml文件</p>
+<pre><code>blog/
+├── .github/
+    └── workflows/
+    		└── deploy.yml
+</code></pre>
+<p>:::important
+TAWERET_BLOG换成上面Repository secrets的名字
+Djkeof/taweret_blog换成你的博客展示仓库
+:::</p>
+<pre><code>name: Build and Deploy Astro Blog
+
+  
+
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+  
+
+jobs:
+
+  build-and-deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Source Code
+
+        uses: actions/checkout@v4
+
+  
+
+      # 第一步：安装 pnpm (关键！)
+
+      - name: Setup pnpm
+
+        uses: pnpm/action-setup@v4
+
+        with:
+
+          version: 10.14.0 # 换成你本地 pnpm -v 的版本号，比如 9.1.0
+
+  
+
+      # 第二步：安装 Node.js
+
+      - name: Setup Node.js
+
+        uses: actions/setup-node@v4
+
+        with:
+
+          node-version: '20'
+
+          cache: 'pnpm'
+
+  
+
+      # 第三步：安装依赖并构建
+
+      - name: Install Dependencies and Build
+
+        run: |
+
+          pnpm install --frozen-lockfile
+
+          pnpm run build
+
+  
+
+      # 第四步：部署到展示仓库
+
+      - name: Deploy to Display Repository
+
+        uses: peaceiris/actions-gh-pages@v4
+
+        with:
+
+          personal_token: ${{ secrets.TAWERET_BLOG }} #TAWERET_BLOG换成上面Repository secrets的名字
+
+          external_repository: Djkeof/taweret_blog #Djkeof/taweret_blog换成你的博客展示仓库
+
+          publish_branch: main
+
+          publish_dir: ./dist
+</code></pre>
+<h3>上传GitHub仓库</h3>
+<p>在终端运行</p>
+<pre><code>git add .
+git commit -m "first commit"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/GitHub名字/blog_source.git
+git push -u origin main
+</code></pre>
+<p>一切顺利的话，稍等一会，就可以在源码仓库和展示仓库看到文件。
+可以进入源码仓库Actions查看workflow运行情况，如果显示未开启，点击enable</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8c23d26dfd.png" alt="image.png" /></p>
+<h2>部署到netlify</h2>
+<h3>安装部署</h3>
+<p>进入<a href="https://app.netlify.com">netlify</a>导入现有项目</p>
+<p>:::tip
+我已经注册过，新注册流程大差不差。
+:::</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8c2c7805db.png" alt="image.png" /></p>
+<p>选择Github</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8c346959bb.png" alt="image.png" /></p>
+<p>选择展示仓库，如果你使用netlify的域名，注意项目名称。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8c4ae5e5ec.png" alt="image.png" /></p>
+<p>部署完成，稍等一会，就可以通过<code>项目名称.netlify.app</code>访问你的博客啦:）</p>
+<h3>配置自己的域名</h3>
+<p>打开项目，选择域管理，添加自己的域。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8ca5e1e103.png" alt="image.png" /></p>
+<p>选择添加子域</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8ca8293082.png" alt="image.png" /></p>
+<p>点击等待外部DNS</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8cabf70856.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8caf784988.png" alt="image.png" /></p>
+<p>把这条CNAME记录加到porkbun（我没有更改DNS托管，你用的是cloudflare...都是一样的添加CNAME记录）（吐槽一句，太隐秘了找了半天）</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8cb39aa064.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8cbdeefe62.png" alt="image.png" /></p>
+<p>添加完耐心等待就好了，netlify会自动配置网站证书。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8cc131984a.png" alt="image.png" /></p>
+<h2>waline评论配置</h2>
+<h3>netlify部署</h3>
+<p>这个我也放到了netlify。
+参考：</p>
+<p><strong><a href="https://waline.js.org/guide/get-started/">LeanCloud 设置 (数据库)</a></strong>
+<strong><a href="https://waline.js.org/guide/deploy/netlify.html">netlify部署</a></strong></p>
+<h3>添加域名</h3>
+<p>参考前面博客添加域名步骤。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8cf1e99e1d.png" alt="image.png" /></p>
+<p>复制添加的域名，在config.ts中的waline部分修改server url。</p>
+<pre><code>// waline - Waline评论系统
+
+    // https://waline.js.org/en/
+
+    waline: {
+
+      // server url - 服务器URL
+
+      serverURL: 'https://comment.taweret.fyi', #在这里修改
+
+      // emoji url - 表情包URL
+
+      emoji: [
+
+        'https://unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+
+        // 'https://unpkg.com/@waline/emojis@1.2.0/bmoji',
+
+        // more emojis: https://waline.js.org/en/guide/features/emoji.html - 更多表情包
+
+      ],
+
+      // gif search - GIF搜索
+
+      search: true, // true, false - 开启、关闭
+
+      // image uploader - 图片上传
+
+      imageUploader: true, // true, false - 开启、关闭
+
+    },
+</code></pre>
+<h2>Obisidian编辑</h2>
+<h3>安装obsidian</h3>
+<p><a href="https://obsidian.md/download">obsidian download</a></p>
+<h3>添加仓库</h3>
+<p>在obsidian选择打开本地仓库，添加content文件夹。</p>
+<pre><code>blog/
+└── src/
+    └── content
+</code></pre>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8d065f0f9a.png" alt="image.png" /></p>
+<h3>安装插件</h3>
+<p>点击左下角设置，进入第三方插件市场，下载<code>Git</code>,<code>image auto upload</code>,<code>Editing Toolbar</code>插件。</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8d1b1d8584.png" alt="image.png" /></p>
+<h3>编辑流程</h3>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8d36ec9747.png" alt="image.png" /></p>
+<h2>1panel安装</h2>
+<p>ssh连接到服务器
+执行以下安装脚本，根据命令行提示完成安装。</p>
+<pre><code>bash -c "$(curl -sSL https://resource.fit2cloud.com/1panel/package/v2/quick_start.sh)"
+</code></pre>
+<p>安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：</p>
+<p><code>http://目标服务器 IP 地址:目标端口/安全入口</code></p>
+<p>:::tip</p>
+<ul>
+<li>如果使用的是云服务器，请在安全组中开放对应的目标端口</li>
+<li>ssh 登录 1Panel 服务器后，执行 <code>1pctl user-info</code> 命令可获取安全入口（entrance）
+:::</li>
+</ul>
+<h2>配置lsky</h2>
+<h3>安装</h3>
+<p>在商店搜索安装</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8d91f5f3c2.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8da7a9cfa1.png" alt="image.png" /></p>
+<h3>新建数据库</h3>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8d9fb7fd6d.png" alt="image.png" /></p>
+<h3>反代</h3>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8dd27c0da4.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8dd549a85c.png" alt="image.png" /></p>
+<h3>泛域名证书申请</h3>
+<p>参考这篇文章啦，非常详细</p>
+<p><a href="https://linux.do/t/topic/434217">免费泛域名 SSL 证书申请及自动续期（使用 1Panel 面板）</a></p>
+<h3>配置</h3>
+<p>在浏览器地址栏输入<code>服务器地址:lsky服务端口</code>或者是你做完反代的域名。
+填写数据库配置，创建管理员账户</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e37e47631.png" alt="" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e3cf5eece.png" alt="image.png" /></p>
+<h4>角色组设置</h4>
+<p>按需修改</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e4b0e83c3.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e4e355c07.png" alt="image.png" /></p>
+<h4>用户管理</h4>
+<p>修改容量</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e536192ca.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e5612d34a.png" alt="image.png" /></p>
+<h3>picgo</h3>
+<h4>获取lsky token</h4>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e1fac6023.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e21d31c8f.png" alt="image.png" /></p>
+<p>依次输入以下代码，会返回一个token，复制它下面会用。</p>
+<pre><code>curl --location --request POST 'https://your.domain/api/v1/tokens' \  
+--form 'email="your_email@address"' \  
+--form 'password="your_passwd"'
+</code></pre>
+<h4>安装</h4>
+<p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85">在这里</a></p>
+<h4>安装插件</h4>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8dfa254315.png" alt="image.png" /></p>
+<h4>配置</h4>
+<p>点击左侧图床设置，选择lankong编辑。</p>
+<p>:::tip
+填写 <code>Auth Token</code> 使用 <code>Bearer</code>  拼接
+:::</p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8dfed134c5.png" alt="image.png" /></p>
+<p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8e71f2d307.png" alt="image.png" /></p>
+<p>:::tip
+由于前面在obsidian安装了<code>image auto upload</code>插件，把图片直接复制到obsidian就会上传到图床。
+:::</p>
+<h2>TODO</h2>
+<p>obsidian同步</p>
+<h2>鸣谢与参考文献</h2>
+<p><em><strong>chatgpt，gemini，claude</strong></em></p>
+<p><a href="https://www.bilibili.com/video/BV1fNNreEEDi/">【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送</a></p>
+<p>::bilibili{id="BV1fNNreEEDi"}</p>
+<p><a href="https://www.hezexian.cn/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/index.html">1panel+雨云服务器+https配置lsky-pro（兰空图床）</a></p>
+<p><a href="https://linux.do/t/topic/434217/1">免费泛域名 SSL 证书申请及自动续期（使用 1Panel 面板）</a></p>
 ]]></content>
         <author>
             <name>Tioryio</name>
@@ -38,7 +430,7 @@
 <p><s>单词，每日一句</s></p>
 <p><s>14年3、4</s></p>
 <h2>数学</h2>
-<p>1000强化8、9</p>
+<p><s>1000强化8</s>、9</p>
 <h2>信号</h2>
 <p>第二章练习</p>
 <p>3.3</p>
