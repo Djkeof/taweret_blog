@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feeds/atom-style.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://retypeset.radishzz.cc/</id>
+    <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-21T23:16:23.963Z</updated>
+    <updated>2025-08-22T00:42:49.757Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
-        <name>radishzz</name>
-        <uri>https://retypeset.radishzz.cc</uri>
+        <name>Tioryio</name>
+        <uri>https://www.taweret.fyi</uri>
     </author>
-    <link rel="alternate" href="https://retypeset.radishzz.cc/"/>
-    <link rel="self" href="https://retypeset.radishzz.cc/atom.xml"/>
+    <link rel="alternate" href="https://www.taweret.fyi/"/>
+    <link rel="self" href="https://www.taweret.fyi/atom.xml"/>
     <subtitle>just blog</subtitle>
-    <rights>Copyright © 2025 radishzz</rights>
+    <rights>Copyright © 2025 Tioryio</rights>
     <entry>
         <title type="html"><![CDATA[考研日记day95]]></title>
-        <id>https://retypeset.radishzz.cc/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</id>
-        <link href="https://retypeset.radishzz.cc/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/"/>
+        <id>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</id>
+        <link href="https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/"/>
         <updated>2025-08-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[单词，每日一句 14年3、4 1000强化8、9 第二章练习 3.3 960-1.2 习9]]></summary>
         <content type="html"><![CDATA[<h2>英语</h2>
@@ -32,8 +32,8 @@
 <p><s>习9</s></p>
 ]]></content>
         <author>
-            <name>radishzz</name>
-            <uri>https://retypeset.radishzz.cc</uri>
+            <name>Tioryio</name>
+            <uri>https://www.taweret.fyi</uri>
         </author>
         <published>2025-08-21T00:00:00.000Z</published>
     </entry>
