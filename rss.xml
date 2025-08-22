@@ -5,7 +5,7 @@
         <title>二叉树上的河马</title>
         <link>https://www.taweret.fyi/</link>
         <description>just blog</description>
-        <lastBuildDate>Fri, 22 Aug 2025 10:48:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 11:25:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
         <language>zh</language>
@@ -17,8 +17,8 @@
             <guid isPermaLink="false">https://www.taweret.fyi/posts/zen95/</guid>
             <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[对称区间非奇非偶 $$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx...]]></description>
-            <content:encoded><![CDATA[<p>对称区间非奇非偶
-$$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx \quad (a &gt; 0)$$</p>
+            <content:encoded><![CDATA[<p>对称区间非奇非偶</p>
+<p>$$\int_{-a}^{a} f(x) , dx = \int_{0}^{a} [f(x) + f(-x)] , dx \quad (a &gt; 0)$$</p>
 ]]></content:encoded>
         </item>
         <item>
