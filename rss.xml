@@ -5,7 +5,7 @@
         <title>二叉树上的河马</title>
         <link>https://www.taweret.fyi/</link>
         <description>just blog</description>
-        <lastBuildDate>Fri, 22 Aug 2025 23:55:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 23:55:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
         <language>zh</language>
@@ -87,7 +87,7 @@ pnpm dev
 		└── posts
 </code></pre>
 <h3>个性化配置</h3>
-<p>参考博客指南<a href="https://retypeset.radishzz.cc/tags/%E6%8C%87%E5%8D%97/">博客指南</a>进行，如果你不知道怎么做可以问问AI，</p>
+<p>参考<a href="https://retypeset.radishzz.cc/tags/%E6%8C%87%E5%8D%97/">博客指南</a>进行，如果你不知道怎么做可以问问AI，</p>
 <p><img src="https://lsky.tioryio.com/i/2025/08/23/68a8b4dada390.png" alt="image.png" /></p>
 <h3>新建测试博文</h3>
 <p>在posts文件夹下新建test.md文件</p>
