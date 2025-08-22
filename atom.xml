@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-22T22:50:46.480Z</updated>
+    <updated>2025-08-22T23:54:59.168Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
         <name>Tioryio</name>
@@ -48,7 +48,7 @@
 :::</p>
 <h2>VPS购买</h2>
 <p>:::important
-非必需，本文中同来搭建lsky图床，就图床而言也有很多免费方案。
+非必需，本文中用来搭建lsky图床，就图床而言也有很多免费方案。
 :::</p>
 <p>供应商很多，根据需求选择购买即可，具体可以去各大论坛关注下，黑5、复活节、圣诞等基本都有活动。</p>
 <p>:::tip

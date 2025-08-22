@@ -5,7 +5,7 @@
         <title>二叉树上的河马</title>
         <link>https://www.taweret.fyi/</link>
         <description>just blog</description>
-        <lastBuildDate>Fri, 22 Aug 2025 22:50:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 23:55:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
         <language>zh</language>
@@ -41,7 +41,7 @@
 :::</p>
 <h2>VPS购买</h2>
 <p>:::important
-非必需，本文中同来搭建lsky图床，就图床而言也有很多免费方案。
+非必需，本文中用来搭建lsky图床，就图床而言也有很多免费方案。
 :::</p>
 <p>供应商很多，根据需求选择购买即可，具体可以去各大论坛关注下，黑5、复活节、圣诞等基本都有活动。</p>
 <p>:::tip
