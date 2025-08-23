@@ -5,7 +5,7 @@
         <title>二叉树上的河马</title>
         <link>https://www.taweret.fyi/</link>
         <description>just blog</description>
-        <lastBuildDate>Sat, 23 Aug 2025 16:31:49 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Aug 2025 19:19:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
         <language>zh</language>
@@ -17,22 +17,6 @@
             <guid isPermaLink="false">https://www.taweret.fyi/posts/zen96/</guid>
             <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2><s><em><strong>啥也没干！</strong></em></s></h2>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[考研日记day96]]></title>
-            <link>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/</link>
-            <guid isPermaLink="false">https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/</guid>
-            <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[单词，每日一句 1000强化9 3.3 习10]]></description>
-            <content:encoded><![CDATA[<h2>英语</h2>
-<p><s>单词，每日一句</s></p>
-<h2>数学</h2>
-<p><s>1000强化9</s></p>
-<h2>信号</h2>
-<p>3.3</p>
-<h2>政治</h2>
-<p><s>习10</s></p>
 ]]></content:encoded>
         </item>
         <item>
@@ -430,26 +414,6 @@ git push -u origin main
 <p>::bilibili{id="BV1fNNreEEDi"}</p>
 <p><a href="https://www.hezexian.cn/2024/02/15/lsky+1panel+https+%E9%9B%A8%E4%BA%91%E9%85%8D%E7%BD%AE/index.html">1panel+雨云服务器+https配置lsky-pro（兰空图床）</a></p>
 <p><a href="https://linux.do/t/topic/434217/1">免费泛域名 SSL 证书申请及自动续期（使用 1Panel 面板）</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[考研日记day95]]></title>
-            <link>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</link>
-            <guid isPermaLink="false">https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</guid>
-            <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[单词，每日一句 14年3、4 1000强化8、9 第二章练习 3.3 960-1.2 习9]]></description>
-            <content:encoded><![CDATA[<h2>英语</h2>
-<p><s>单词，每日一句</s></p>
-<p><s>14年3、4</s></p>
-<h2>数学</h2>
-<p><s>1000强化8</s>、9</p>
-<h2>信号</h2>
-<p>第二章练习</p>
-<p>3.3</p>
-<p>960-1.2</p>
-<h2>政治</h2>
-<p><s>习9</s></p>
-<p><img src="https://lsky.tioryio.com/i/2025/08/18/68a2d94edc62e.jpg" alt="" /></p>
 ]]></content:encoded>
         </item>
     </channel>

@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-23T16:31:47.234Z</updated>
+    <updated>2025-08-23T19:19:48.354Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
         <name>Tioryio</name>
@@ -19,27 +19,6 @@
         <link href="https://www.taweret.fyi/posts/zen96/"/>
         <updated>2025-08-23T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2><s><em><strong>啥也没干！</strong></em></s></h2>
-]]></content>
-        <author>
-            <name>Tioryio</name>
-            <uri>https://www.taweret.fyi</uri>
-        </author>
-        <published>2025-08-23T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[考研日记day96]]></title>
-        <id>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/</id>
-        <link href="https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/"/>
-        <updated>2025-08-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[单词，每日一句 1000强化9 3.3 习10]]></summary>
-        <content type="html"><![CDATA[<h2>英语</h2>
-<p><s>单词，每日一句</s></p>
-<h2>数学</h2>
-<p><s>1000强化9</s></p>
-<h2>信号</h2>
-<p>3.3</p>
-<h2>政治</h2>
-<p><s>习10</s></p>
 ]]></content>
         <author>
             <name>Tioryio</name>
@@ -453,30 +432,5 @@ git push -u origin main
             <uri>https://www.taweret.fyi</uri>
         </author>
         <published>2025-08-22T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[考研日记day95]]></title>
-        <id>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/</id>
-        <link href="https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day95/"/>
-        <updated>2025-08-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[单词，每日一句 14年3、4 1000强化8、9 第二章练习 3.3 960-1.2 习9]]></summary>
-        <content type="html"><![CDATA[<h2>英语</h2>
-<p><s>单词，每日一句</s></p>
-<p><s>14年3、4</s></p>
-<h2>数学</h2>
-<p><s>1000强化8</s>、9</p>
-<h2>信号</h2>
-<p>第二章练习</p>
-<p>3.3</p>
-<p>960-1.2</p>
-<h2>政治</h2>
-<p><s>习9</s></p>
-<p><img src="https://lsky.tioryio.com/i/2025/08/18/68a2d94edc62e.jpg" alt="" /></p>
-]]></content>
-        <author>
-            <name>Tioryio</name>
-            <uri>https://www.taweret.fyi</uri>
-        </author>
-        <published>2025-08-21T00:00:00.000Z</published>
     </entry>
 </feed>
