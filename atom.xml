@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-22T23:55:39.694Z</updated>
+    <updated>2025-08-23T15:26:41.133Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
         <name>Tioryio</name>
@@ -13,6 +13,27 @@
     <link rel="self" href="https://www.taweret.fyi/atom.xml"/>
     <subtitle>just blog</subtitle>
     <rights>Copyright © 2025 Tioryio</rights>
+    <entry>
+        <title type="html"><![CDATA[考研日记day96]]></title>
+        <id>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/</id>
+        <link href="https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/"/>
+        <updated>2025-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[单词，每日一句 1000强化9 3.3 习10]]></summary>
+        <content type="html"><![CDATA[<h2>英语</h2>
+<p><s>单词，每日一句</s></p>
+<h2>数学</h2>
+<p><s>1000强化9</s></p>
+<h2>信号</h2>
+<p>3.3</p>
+<h2>政治</h2>
+<p><s>习10</s></p>
+]]></content>
+        <author>
+            <name>Tioryio</name>
+            <uri>https://www.taweret.fyi</uri>
+        </author>
+        <published>2025-08-23T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[zen95]]></title>
         <id>https://www.taweret.fyi/posts/zen95/</id>
@@ -159,13 +180,13 @@ $$\int_{-a}^{a} f(x) \, dx = \int_{0}^{a} [f(x) + f(-x)] \, dx \quad (a &gt; 0)$
 <h3>添加Github Workflow配置文件</h3>
 <p>再.github文件夹下新建workflows文件夹添加deploy.yml文件</p>
 <pre><code>blog/
-├── .github/
+└── .github/
     └── workflows/
     		└── deploy.yml
 </code></pre>
 <p>:::important
-TAWERET_BLOG换成上面Repository secrets的名字
-Djkeof/taweret_blog换成你的博客展示仓库
+NAME_BLOG换成上面Repository secrets的名字
+NAME/taweret_blog换成你的博客展示仓库
 :::</p>
 <pre><code>name: Build and Deploy Astro Blog
 
@@ -241,9 +262,9 @@ jobs:
 
         with:
 
-          personal_token: ${{ secrets.TAWERET_BLOG }} #TAWERET_BLOG换成上面Repository secrets的名字
+          personal_token: ${{ secrets.NAME_BLOG }} #TAWERET_BLOG换成上面Repository secrets的名字
 
-          external_repository: Djkeof/taweret_blog #Djkeof/taweret_blog换成你的博客展示仓库
+          external_repository: NAME/taweret_blog #Djkeof/taweret_blog换成你的博客展示仓库
 
           publish_branch: main
 
