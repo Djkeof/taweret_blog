@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.taweret.fyi/</id>
     <title>二叉树上的河马</title>
-    <updated>2025-08-23T15:26:41.133Z</updated>
+    <updated>2025-08-23T16:31:47.234Z</updated>
     <generator>Astro-Theme-Retypeset with Feed for Node.js</generator>
     <author>
         <name>Tioryio</name>
@@ -13,6 +13,19 @@
     <link rel="self" href="https://www.taweret.fyi/atom.xml"/>
     <subtitle>just blog</subtitle>
     <rights>Copyright © 2025 Tioryio</rights>
+    <entry>
+        <title type="html"><![CDATA[zen96]]></title>
+        <id>https://www.taweret.fyi/posts/zen96/</id>
+        <link href="https://www.taweret.fyi/posts/zen96/"/>
+        <updated>2025-08-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2><s><em><strong>啥也没干！</strong></em></s></h2>
+]]></content>
+        <author>
+            <name>Tioryio</name>
+            <uri>https://www.taweret.fyi</uri>
+        </author>
+        <published>2025-08-23T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[考研日记day96]]></title>
         <id>https://www.taweret.fyi/posts/%E8%80%83%E7%A0%94%E6%97%A5%E8%AE%B0day96/</id>
